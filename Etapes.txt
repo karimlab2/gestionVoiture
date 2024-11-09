@@ -1,0 +1,33 @@
+1 Installer git
+2 git -- version
+
+3 Définir l'identité : 
+	git config --global user.name "karim Labidi"
+	git config --global user.email "karim.labidi@esprit.tn
+4 Commandes de Base
+	mkdir new_rep
+	initialiser git : git init
+	demander statut global : git status
+5 apporter des modification de type css : body style="background-color: aqua;"   
+						et <h1 style="text-align :center ; padding-top:20%; padding-bottom : 20% ;">
+
+
+5 Enregistrement de l'etat du projet : 2  étapes  (la selection des fichiers, la prise ou le commit )
+	git add  filename 
+	git commit -m "first commit"        commentaire
+6 Réaliser d'autre modification : "color :#FFFFFF"
+
+	git add  filename 
+	git commit -m "modif coouleur du titre" 
+
+7 Time line des commits
+	git log
+
+8 : Notion des branche : une copie de votre projet ( si ça te plais pas vous pouvez la supprimer sinon tu vas pouvoir la rapatrier sur ton projet principal )
+	git branche backgroundColor      -- création de la branche
+	git branche 			 -- lister les branches
+	git checkout backgroudColor  
+	modifier la couleur de fond + git add index.html + git commit -m "modification de la couleur de fond" + git log
+
+9 Rapatrier les changement effectuées sur la branche sur le projet principal (master)
+
