@@ -31,3 +31,5 @@
 
 9 Rapatrier les changement effectuées sur la branche sur le projet principal (master)
 
+10- Validation et vérification
+
